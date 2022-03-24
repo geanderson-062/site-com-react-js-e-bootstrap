@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(32, 1, 59);
+}
+
+a{
+  text-decoration: none;
+}
+
+.Cards{
+
+  position: relative;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.corPrimaria {
+
+  background-color: #2E0052;
+}
+
