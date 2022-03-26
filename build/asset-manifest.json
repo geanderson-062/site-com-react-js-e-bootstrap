@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7743616c.css",
+    "main.js": "/static/js/main.2a8c4f48.js",
+    "static/js/787.b59ad7a6.chunk.js": "/static/js/787.b59ad7a6.chunk.js",
+    "static/media/banner.png": "/static/media/banner.bd296cff2632d0e58f38.png",
+    "static/media/player.png": "/static/media/player.1cfece52876fd3f79084.png",
+    "static/media/livros.png": "/static/media/livros.8782c68381858c9a9ef0.png",
+    "static/media/adotpet.png": "/static/media/adotpet.3b096fb4f42392644fc4.png",
+    "static/media/cinema.png": "/static/media/cinema.99ac7020c628b1cce9ae.png",
+    "static/media/cv.png": "/static/media/cv.2712ad0d7971119ba74c.png",
+    "static/media/js.png": "/static/media/js.cb2ba8a5ba4b034a58ca.png",
+    "static/media/code.png": "/static/media/code.7cb51b50f06cfc3a0402.png",
+    "static/media/info.png": "/static/media/info.52879c6d7ac0a6e6573f.png",
+    "static/media/tempo.png": "/static/media/tempo.3881b02c6d3df95421d5.png",
+    "index.html": "/index.html",
+    "main.7743616c.css.map": "/static/css/main.7743616c.css.map",
+    "main.2a8c4f48.js.map": "/static/js/main.2a8c4f48.js.map",
+    "787.b59ad7a6.chunk.js.map": "/static/js/787.b59ad7a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7743616c.css",
+    "static/js/main.2a8c4f48.js"
+  ]
+}
