@@ -5,6 +5,12 @@ npm start = reproduz
 
 npx create-react-app.
 
+instalando lottie para animações
+
+npm install --save @lottiefiles/lottie-player
+
+https://github.com/LottieFiles/lottie-player  olhe para ter uma ajuda
+
 como fazer build
 https://www.youtube.com/watch?v=TWTAuGEi6KU&t=320s
 
@@ -29,6 +35,12 @@ asset == todo conteudo estatico como imagens videos e arquivos de dowload
 src == todo nosso react ta dentro 
 
 node_modules == todo conteudo de build e bibblioteca front end 
+
+------API 
+
+api para gerar imagens 
+
+//https://source.unsplash.com/1400x250/?car
 
 
 

@@ -20,6 +20,12 @@ export default function Cards() {
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />   
+<br />
+<br />
+<br />  
 
 <section className="container">
 
@@ -138,7 +144,10 @@ export default function Cards() {
 
 <br />
 <br />
-<br />     
+<br />   
+<br />
+<br />
+<br />  
 
     </>
         

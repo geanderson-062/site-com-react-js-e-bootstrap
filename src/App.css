@@ -6,17 +6,64 @@ a{
   text-decoration: none;
 }
 
+.texTo{
+
+  animation: movimentarTexto 2s ease alternate-reverse ;
+
+}
+
+@keyframes movimentarTexto { /*determinado a animção e o espaço dela se mexer*/
+  
+  0% {
+    padding: 1rem;
+    background-color: rgb(32, 1, 59);
+  } 
+
+  20% {
+    padding: 2rem;
+    background-color: #2E0052;
+  }
+
+}
+
 .Cards{
 
   position: relative;
 
   margin-left: 40px;
   margin-right: 40px;
+
+  animation: movimenTar 1s ease forwards infinite; /*determinando nome da animação e o tempo dela*/
+   
+}
+
+@keyframes movimenTar { /*determinado a animção e o espaço dela se mexer*/
   
+  0% {
+    padding: 1rem;
+  } 
+
+  20% {
+    padding: 2rem;
+  }
+
 }
 
 .corPrimaria {
 
   background-color: #2E0052;
+}
+
+.tamanhoDiv{
+
+  width: 100%;
+  height: 500px;
+}
+
+.Animacao{
+  
+  display: flex;
+  align-items: center;
+ 
 }
 

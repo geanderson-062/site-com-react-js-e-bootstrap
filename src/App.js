@@ -3,13 +3,21 @@
 
 //importando componentes
 import Navbar from './components/Navbar.jsx'; 
-import Banner from './components/Banner.jsx'; 
+// import Banner from './components/Banner.jsx'; 
 import Subnavbar from './components/Subnavbar.jsx';
 import Footer from './components/Footer.jsx'; 
 
  //importando conteudo do content
-import Boas from './content/Boas.jsx';
+import Titulo1 from './content/Titulo1.jsx';
 import Cards from './content/Cards.jsx';
+import Contato from './content/Contato.jsx';
+import Descricao from './content/Descricao.jsx';
+
+//import Animacao1 from './components/animation/Animation_1.jsx'; colocamos ela dentro de banner teste
+import Animacao2 from './components/animation/Animation_2.jsx';
+import Animacao3 from './components/animation/Animation_3.jsx';
+
+import Banner from './components/Banner.jsx'; 
 
 //importando css
 import './App.css'; 
@@ -28,12 +36,21 @@ function App() {
         
         aqui colocamos as tags que criamos
         */}
-  
-        <Boas/>
+
+        <Descricao/>
+        
+        <Animacao2/>
+
+        <Titulo1/>
 
         <Cards/>
-      
+
+        <Contato/>
+
+        <Animacao3/>
+    
         <Footer />
+        
       </>
   );
 }

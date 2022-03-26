@@ -2,14 +2,18 @@ import React from "react";
 import img1 from '../assets/img/banner.png';
 import '../App.css';
 
+import Animacao1 from "./animation/Animation_1";
+
 //https://source.unsplash.com/1400x250/?car
 
-export default function Banner() {
+export default function banner() {
 
     return (
 
-      <div className="card corPrimaria text-white">
-       <img src={img1} className="card-img" alt="..."/>
+      <div className="card corPrimaria text-white tamanhoDiv">
+
+       <div className="position-absolute top-0 end-0"><Animacao1/></div>
+      
       <div className="card-img-overlay">
        <h5 className="card-title">Bem Vindo</h5>
          <p className="card-text">Veja alguns trabalhos</p>
