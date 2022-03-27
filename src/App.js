@@ -4,18 +4,15 @@
 //importando componentes
 import Navbar from './components/Navbar.jsx'; 
 import Footer from './components/Footer.jsx'; 
+import Titulo1 from './components/Titulo1.jsx';
+import Cards from './components/Cards.jsx';
+import Contato from './components/Contato.jsx';
+import Descricao from './components/Descricao.jsx';
+import Banner from './components/Banner.jsx'; 
 
- //importando conteudo do content
-import Titulo1 from './content/Titulo1.jsx';
-import Cards from './content/Cards.jsx';
-import Contato from './content/Contato.jsx';
-import Descricao from './content/Descricao.jsx';
-
-//import Animacao1 from './components/animation/Animation_1.jsx'; colocamos ela dentro de banner teste
+//import Animacões / a animação 1 está sendo chamada dentro do banner / animação trabalho está no titulo 1 
 import Animacao2 from './components/animation/Animation_2.jsx';
 import Animacao3 from './components/animation/Animation_3.jsx';
-
-import Banner from './components/Banner.jsx'; 
 
 //importando css
 import './App.css'; 
@@ -24,6 +21,8 @@ function App() {
 
   return (
       <>
+             
+      {/* aqui juntamos todos os componentes de nosso sistema devemos usar sempre <> </> antes de digitar o codigo*/}
 
         <Navbar/>  
        

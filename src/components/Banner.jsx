@@ -1,10 +1,7 @@
 import React from "react";
-import img1 from '../assets/img/banner.png';
-import '../App.css';
+import '../App.css';//importando o css
 
-import Animacao1 from "./animation/Animation_1";
-
-//https://source.unsplash.com/1400x250/?car
+import Animacao1 from "./animation/Animation_1";//importando a animação
 
 export default function banner() {
 
