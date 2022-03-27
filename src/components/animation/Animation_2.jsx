@@ -17,12 +17,14 @@ export default function Animacao2() {
   loop
   mode="normal" 
   src="https://assets5.lottiefiles.com/packages/lf20_dlw10cqe.json"
-  style={{ width: "450px", height: "450px"}}
+  style={{ width: "350px", height: "350px"}}
 >
 </lottie-player>
 
 </div>
 
+<div>
+
 <br />
 <br />
 <br />
@@ -41,6 +43,7 @@ export default function Animacao2() {
 <br />
 <br />
 
+</div>
 
     </>
         

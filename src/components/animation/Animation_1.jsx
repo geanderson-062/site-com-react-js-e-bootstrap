@@ -15,7 +15,7 @@ export default function Animacao1() {
   loop
   mode="normal"
   src="https://assets2.lottiefiles.com/packages/lf20_imrozgtu.json"
-  style={{ width: "450px", height: "450px"}}
+  style={{ width: "350px", height: "350px"}}
 >
 </lottie-player>
 

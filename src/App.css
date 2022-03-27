@@ -1,14 +1,18 @@
 body{
+
   background-color: rgb(32, 1, 59); /*cor de fundo*/
+
 }
 
 a{
+
   text-decoration: none; /*tirando o sublinhado nas tags a */
+
 }
 
 .texTo{
 
-  animation: movimentarTexto 2s ease alternate-reverse /*infinite*/ ;
+  animation: movimentarTexto 2s ease alternate-reverse ;
 
 }
 
@@ -21,13 +25,19 @@ a{
 @keyframes movimentarTexto { /*determinado a animção e o espaço dela se mexer*/
   
   0% {
+
     padding: 1rem;
+
     background-color: rgb(32, 1, 59);
+
   } 
 
   20% {
+
     padding: 2rem;
+
     background-color: #2E0052;
+
   }
 
 }
@@ -43,19 +53,24 @@ a{
    
 }
 
-.Cards:hover{
+.CardAnimado:hover{
   
   animation: movimenTar 1s ease forwards  infinite;
+
 }
 
 @keyframes movimenTar { /*determinado a animção e o espaço dela se mexer*/
   
   0% {
+
     padding: 1rem;
+
   } 
 
   20% {
+
     padding: 2rem;
+
   }
 
 }
@@ -63,12 +78,13 @@ a{
 .corPrimaria {
 
   background-color: #2E0052; /*cor da navbar footer e banner*/
+
 }
 
 .tamanhoDiv{ /*tamanho do banner*/
 
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 

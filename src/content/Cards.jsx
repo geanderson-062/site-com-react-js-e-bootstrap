@@ -32,7 +32,7 @@ export default function Cards() {
 <div className="row row-cols-1 row-cols-md-3 g-4 Cards">
 
 <a href="https://adotpet.org/index.html">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img1} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -43,7 +43,7 @@ export default function Cards() {
 </a>
 
 <a href="https://g-code-editor.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img2} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -55,7 +55,7 @@ export default function Cards() {
 </a>
 
 <a href="https://js-servicos-gerais.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img3} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -67,7 +67,7 @@ export default function Cards() {
 </a>
 
 <a href="https://cinema-extremo-lite.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img4} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -79,7 +79,7 @@ export default function Cards() {
 </a>
 
 <a href="https://gf-player.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img5} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -91,7 +91,7 @@ export default function Cards() {
 </a>
 
 <a href="https://gf-livros.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img6} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -103,7 +103,7 @@ export default function Cards() {
 </a>
 
 <a href="https://default-info.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img7} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -115,7 +115,7 @@ export default function Cards() {
 </a>
 
 <a href="https://geanderson-cv.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img8} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -127,7 +127,7 @@ export default function Cards() {
 </a>
 
 <a href="https://tempo-agora.netlify.app/">
-  <div className="col">
+  <div className="col CardAnimado">
     <div className="card">
       <img src={img9} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -142,12 +142,16 @@ export default function Cards() {
 
 </section>
 
+<div>
+
 <br />
 <br />
 <br />   
 <br />
 <br />
 <br />  
+
+</div>
 
     </>
         

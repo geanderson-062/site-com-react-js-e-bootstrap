@@ -43,7 +43,8 @@ export default function Footer() {
         </ul>
 
         <p className="text-center text-white">© 2022 Gean.Dev Company, Inc</p>
-        <p className="text-center text-white">Sistema desenvolvido com React.js & Bootstrap</p>
+        
+        <br />
         
       </footer>
 

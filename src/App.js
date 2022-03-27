@@ -3,8 +3,6 @@
 
 //importando componentes
 import Navbar from './components/Navbar.jsx'; 
-// import Banner from './components/Banner.jsx'; 
-import Subnavbar from './components/Subnavbar.jsx';
 import Footer from './components/Footer.jsx'; 
 
  //importando conteudo do content
@@ -26,16 +24,10 @@ function App() {
 
   return (
       <>
+
         <Navbar/>  
        
         <Banner/>
-
-        <Subnavbar/>
-
-        {/*assim se colocar comentario dentro do jsx
-        
-        aqui colocamos as tags que criamos
-        */}
 
         <Descricao/>
         
@@ -50,7 +42,7 @@ function App() {
         <Animacao3/>
     
         <Footer />
-        
+             
       </>
   );
 }
