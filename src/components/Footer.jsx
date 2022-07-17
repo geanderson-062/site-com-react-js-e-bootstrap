@@ -5,7 +5,7 @@ export default function Footer() {
 
     return (
 
-        <footer className="py-3 my-4 corPrimaria">
+        <footer className="py-3  corPrimaria">
 
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
 

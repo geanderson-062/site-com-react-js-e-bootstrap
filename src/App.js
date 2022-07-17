@@ -4,7 +4,7 @@
 //importando componentes
 import Navbar from './components/Navbar.jsx'; 
 import Footer from './components/Footer.jsx'; 
-import Titulo1 from './components/Titulo1.jsx';
+import Titulos from './components/Titulos.jsx';
 import Cards from './components/Cards.jsx';
 import Contato from './components/Contato.jsx';
 import Descricao from './components/Descricao.jsx';
@@ -32,7 +32,7 @@ function App() {
         
         <Animacao2/>
 
-        <Titulo1/>
+        <Titulos/>
 
         <Cards/>
 

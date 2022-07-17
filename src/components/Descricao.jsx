@@ -17,7 +17,7 @@ export default function Descricao() {
      </div>
 
         <p className="fs-4 text-center text-white texTo">Desenvolvimento  <br />
-        Front_end Web</p>
+        Front_end <br />  Web & Mobile</p>
   
     </>
         

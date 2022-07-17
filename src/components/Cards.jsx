@@ -13,6 +13,10 @@ import Default from "./content/Card_default";
 import Curriculo from "./content/Card_curriculo";
 import Tempo from "./content/Card_tempo";
 
+import One from "./content/Card_mobile_onebithealth";
+import Velha from "./content/Card_mobile_jogo_da_velha";
+import Braziliancoin from "./content/Card_mobile_braziliancoin";
+
 export default function Cards() {
 
     return (
@@ -20,13 +24,11 @@ export default function Cards() {
 
 <br />
 <br />
+
+<p className="fs-2 text-center text-white texTo">Aplicações Web</p>
+
 <br />
 <br />
-<br />
-<br />   
-<br />
-<br />
-<br />  
 
 <section className="container">
 
@@ -52,18 +54,23 @@ export default function Cards() {
 
 </div>
 
-</section>
+<br />
+<br />
 
-<div>
+<p className="fs-2 text-center text-white texTo">Aplicações Mobile</p>
 
 <br />
 <br />
-<br />   
-<br />
-<br />
-<br />  
+
+<div className="row row-cols-1 row-cols-md-3 g-4 Cards">
+
+  <One/>
+  <Velha/>
+  <Braziliancoin/>
 
 </div>
+
+</section>
 
     </>
         
